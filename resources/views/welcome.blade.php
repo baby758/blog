@@ -1,45 +1,29 @@
-<!DOCTYPE html>
-<html>
-    <head>
-        <title>Laravel</title>
+@extends('layouts.layout')
 
-        <link href="https://fonts.googleapis.com/css?family=Lato:100" rel="stylesheet" type="text/css">
+@section('content')
 
-        <style>
-            html, body {
-                height: 100%;
-            }
 
-            body {
-                margin: 0;
-                padding: 0;
-                width: 100%;
-                display: table;
-                font-weight: 100;
-                font-family: 'Lato';
-            }
-
-            .container {
-                text-align: center;
-                display: table-cell;
-                vertical-align: middle;
-            }
-
-            .content {
-                text-align: center;
-                display: inline-block;
-            }
-
-            .title {
-                font-size: 96px;
-            }
-        </style>
-    </head>
-    <body>
-        <div class="container">
-            <div class="content">
-                <div class="title">Laravel 5</div>
-            </div>
+        <!-- Main content -->
+<section class="content">
+    <div class="row">
+        <div class="col-lg-12 col-lg-12">
         </div>
-    </body>
-</html>
+    </div>
+    <div class="row">
+        <div class="col-xs-12">
+            <div class="box">
+                <div class="box-header">
+                    欢迎使用blog系统！
+                </div><!-- /.box-header -->
+                <div class="box-body table-responsive no-padding">
+
+                </div><!-- /.box-body -->
+                <div class="box-footer text-center">
+                </div><!-- /.box-header -->
+            </div><!-- /.box -->
+        </div>
+    </div>
+</section><!-- /.content -->
+
+
+@endsection
